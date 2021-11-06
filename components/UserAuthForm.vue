@@ -44,9 +44,9 @@ export default {
       valid: false,
       showPassword: false,
       userInfo: {
-        name: 'Masum',
-        email: 'child.masum183@gmail.com',
-        password: '1234567890',
+        name: '',
+        email: '',
+        password: '',
         photo: null,
       },
 
