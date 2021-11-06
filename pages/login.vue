@@ -1,15 +1,13 @@
 <template>
   <v-container>
-    <h1>LOGIN</h1>
+    <h1>MASUK</h1>
 
-    <UserAuthForm buttonText="Login" :submitForm="loginUser" />
+    <UserAuthForm buttonText="Masuk" :submitForm="loginUser" />
   </v-container>
 </template>
 
 <script>
 import UserAuthForm from '@/components/UserAuthForm'
-import axios from 'axios'
-import { mapActions } from 'vuex'
 
 export default {
   components: {

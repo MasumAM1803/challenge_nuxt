@@ -140,7 +140,7 @@ export default {
         },
         {
           icon: "mdi-chart-bubble",
-          title: "itemList",
+          title: "Daftar Barang",
           to: "/itemList",
         },
       ],

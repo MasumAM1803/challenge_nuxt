@@ -11,7 +11,7 @@
       :rules="[required('email'), emailFormat()]" />
     <v-text-field
       v-model="userInfo.password"
-      label="Password"
+      label="Kata Sandi"
       :type="showPassword ? 'text' : 'password'"
       :append-icon="showPassword ? 'mdi-eye' : 'mdi-eye-off'"
       @click:append="showPassword = !showPassword"
@@ -20,14 +20,14 @@
     <v-file-input
       v-model="userInfo.photo"
       accept="image/*"
-      label="Photo Profil"
+      label="Foto Profil"
       prepend-icon="mdi-camera"
       outlined
       dense
       v-if="hasName"/>
 
     <v-btn @click="submitForm(userInfo)" :disabled="!valid">{{ buttonText }}</v-btn>
-    <v-btn to="/register" v-if="!hasName">Register</v-btn>
+    <v-btn to="/register" v-if="!hasName">Daftar</v-btn>
     <v-divider class="mx-1" vertical></v-divider>
     <span v-if="hasName">
       Sudah punya akun? <NuxtLink to="/login" class="link_page">Masuk</NuxtLink>

@@ -2,7 +2,7 @@
   <v-container>
     <h1>DAFTAR</h1>
 
-    <UserAuthForm buttonText="Register" :submitForm="registerUser" hasName=true />
+    <UserAuthForm buttonText="Daftar" :submitForm="registerUser" hasName=true />
   </v-container>
 </template>
 
